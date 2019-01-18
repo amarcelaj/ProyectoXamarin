@@ -7,24 +7,11 @@
         <StackLayout Orientation="Vertical" Margin="20">
             
             <StackLayout Orientation="Horizontal">
-                <Label Text="Nombre:" />
-                <Label Text="{Binding Nombre}" />
+                <Label Text="Det Raza:" />
+                <Label Text="{Binding Raza}" />
             </StackLayout>
             
-            <StackLayout Orientation="Horizontal">
-                
-                <Label Text="Cantidad:" />
-                <Label Text="{Binding Cantidad}" />
-            </StackLayout>
-            
-            <StackLayout Orientation="Horizontal">
-                
-                <Label Text="Precio:" />
-                <Label Text="{Binding Precio, StringFormat='$${0}'}" />
-            </StackLayout>
-            
-            <Button Text="Llamar" FontSize="Large" x:Name="botonLlamada" />
-            
+
             <Image Source="{Binding RutaImagen}" VerticalOptions="FillAndExpand" Aspect="Fill" />
         </StackLayout>
     </ContentPage.Content>

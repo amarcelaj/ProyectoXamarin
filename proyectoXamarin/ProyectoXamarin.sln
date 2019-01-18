@@ -10,14 +10,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoXamarin", "HolaMovi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F57AC62B-3F2F-4CF7-9597-51D39A00E6EE}"
 	ProjectSection(SolutionItems) = preProject
-		data.json = data.json
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5171D136-B85C-4EDF-B9E7-48C59C74B312}"
-	ProjectSection(SolutionItems) = preProject
-		credentials.json = credentials.json
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
